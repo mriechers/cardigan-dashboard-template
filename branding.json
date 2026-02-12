@@ -1,0 +1,11 @@
+{
+  "appName": "My Dashboard",
+  "appVersion": "1.0.0",
+  "orgName": "Acme Corp",
+  "logoUrl": "/favicon.svg",
+  "colors": {
+    "primary": "#3b82f6",
+    "secondary": "#8b5cf6"
+  },
+  "storageKey": "my-dashboard-preferences"
+}
