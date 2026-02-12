@@ -14,7 +14,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Dashboard API",
+    title="Cardigan Dashboard API",
     version="1.0.0",
     lifespan=lifespan
 )

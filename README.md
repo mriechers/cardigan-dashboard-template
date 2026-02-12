@@ -1,6 +1,10 @@
-# Dark Dashboard Template
+# Cardigan Dashboard Template
 
 A full-stack dashboard starter with a dark-first UI, real-time updates via WebSocket, and single-file branding. Built with React, TypeScript, Tailwind CSS, and FastAPI.
+
+## Origin
+
+This template was extracted from [ai-editorial-assistant-v3](https://github.com/MarkOnFire/ai-editorial-assistant-v3), the PBS Wisconsin Digital Editorial Assistant featuring "Cardigan" — a Mister Rogers-inspired copy editor. The dashboard shell, accessibility features, and real-time architecture were generalized into this standalone starter so other projects can build on the same foundation.
 
 ## Features
 
@@ -31,8 +35,8 @@ A full-stack dashboard starter with a dark-first UI, real-time updates via WebSo
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/dark-dashboard-template.git
-cd dark-dashboard-template
+git clone https://github.com/MarkOnFire/cardigan-dashboard-template.git
+cd cardigan-dashboard-template
 
 # Frontend
 cd web && npm install && cd ..
@@ -90,7 +94,7 @@ Edit `branding.json` at the project root to customize the dashboard:
 
 ```json
 {
-  "appName": "My Dashboard",
+  "appName": "Cardigan Dashboard",
   "appVersion": "1.0.0",
   "orgName": "Acme Corp",
   "logoUrl": "/favicon.svg",
@@ -98,7 +102,7 @@ Edit `branding.json` at the project root to customize the dashboard:
     "primary": "#3b82f6",
     "secondary": "#8b5cf6"
   },
-  "storageKey": "my-dashboard-preferences"
+  "storageKey": "cardigan-dashboard-preferences"
 }
 ```
 
